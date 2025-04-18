@@ -1,4 +1,4 @@
-package com.rockettracker;
+package com.rockettracker.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -58,7 +58,7 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return userName; // 
+        return userName;
     }
 
     @Override
